@@ -2,13 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        var frog = 3.5;
-        System.out.println(frog);
-        frog = frog * 10;
-        System.out.println(frog);
-        frog = frog / 3.5;
-        System.out.println(frog);
-        frog = frog + 4;
-        System.out.println(frog);
+        var mass1Boxer = 78.2;
+        var mass2Boxer = 82.7;
+        System.out.println("Общая масса 2 боксеров " + (mass1Boxer + mass2Boxer) + " кг");
+        System.out.println("Разница между массами 2 боксеров " + (mass2Boxer - mass1Boxer) + " кг");
     }
 }
