@@ -4,6 +4,8 @@ public class Main {
     public static void main(String[] args) {
         var hours = 640;
         var timePerson = 8;
-        System.out.println("Всего работников в компании - " + (hours / timePerson) + " человек");
+        var person = (hours / timePerson) + 94;
+        System.out.println("Если в компании работает " + person + " человека ,то всего " + (timePerson * person) + "" +
+                " часов работы может быть поделено между сотрудниками.");
     }
 }
